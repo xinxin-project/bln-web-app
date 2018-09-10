@@ -1,0 +1,3 @@
+.bln-login-box{width:420px;background:#fff;    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 0px;padding:40px 40px;text-align: center;border-radius:6px; position: absolute;left: 50%;top:50%;margin: -165px 0 0 -210px}
+.bln-login-box .bln-login-input{display: inline-block;font-size: 14px;margin-top: 20px;}
+.bln-login-box .bln-login-btn{margin-top: 20px;height: 40px;font-size: 14px}

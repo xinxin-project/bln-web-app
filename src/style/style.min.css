@@ -1,0 +1,39 @@
+.layout{height: 100%;background: #f4f8f9;min-width: 1024px}
+::-webkit-scrollbar-track {  background-color: #F5F5F5  }
+::-webkit-scrollbar {  width: 6px;height: 6px;background-color: #F5F5F5  }
+::-webkit-scrollbar-thumb {  background-color: #999  }
+.layout-box-shadow { box-shadow: 0 1px 1px rgba(0,0,0,0.15);  }
+
+/*===========================================*/
+.header{  width: 100%;height: 50px;min-width: 1024px;border-bottom: 1px solid #dfdfdf;box-shadow: 0 1px 4px 0 rgba(238, 238, 238, 0.5); background: #fff;position:absolute;top: 0px;left: 0px; z-index: 101}
+.header .bln-logo{float: left; padding: 10px 0 11px 20px}
+.header .bln-right{float: right}
+.header .bln-avatar{float:left; padding: 9px 16px 9px 0}
+.header .bln-img{color: #fff;background-color: #2d8cf0}
+.header .bln-ios{float: left;margin-right: 10px;padding: 12px 0 18px}
+
+/*==============================================================*/
+.layout-sec{height: 100%;box-sizing: border-box;padding-top: 50px;position: relative; overflow: hidden;}
+.layout-menu{height: 100%;float:left; background: #fff; min-width: 200px;overflow-y: auto}
+.layout-view{padding:10px;height:100%;overflow-y: auto;overflow-x: hidden;position:relative}
+.iview-body{width:100%;height: 100%; position:relative}
+
+
+/* 菜单Menu==============================================================*/
+.layout-menu .ivu-menu{height: 100%}
+
+
+
+/*==============================================================*/
+.bln-card{float:left;width: 33.333%;padding: 5px;}
+.bln-card-d{float:left;width: 100%;}
+.bln-upload-btn{position: relative;width: 90px;float: left;margin-bottom: 10px}
+.bln-upload{ position: absolute;top: 0px; left: 0px; width: 100%;height: 100%; cursor: pointer;outline: none; opacity: 0}
+.bln-card-img{float:left;width:100%;height: 130px; position: relative;margin-bottom: 10px}
+.bln-card-img img{float: left;width: 100%;height: 130px;}
+.demo-upload-list-cover{display: none;position: absolute;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0,0,0,.6);}
+.bln-card-img:hover .demo-upload-list-cover{display: block;}
+.demo-upload-list-cover i{color: #fff;font-size: 36px;cursor: pointer;margin: -10px 0 0 -12px;margin: 50px 10px 0;}
+.ivu-spin.ivu-spin-large.ivu-spin-fix{ z-index: 999999}
+.bln-up-add{width: 100%;height: 188px;float: left; text-align: center; line-height: 188px; cursor: pointer}
+.upload-video .ivu-upload{width: 100%;height: 100%}
